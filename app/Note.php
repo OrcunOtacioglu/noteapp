@@ -23,4 +23,9 @@ class Note extends Model
     {
     	return $this->belongsTo('App\User');
     }
+
+    public function notebook()
+    {
+        return $this->belongsTo('App\Notebook');
+    }
 }

@@ -14,7 +14,7 @@
 			</div>
 
 			@if ($notes->isEmpty())
-				<div class="alert alert-info" role="alert">
+				<div class="alert alert-info" role="alert" style="margin-top: 50px;">
 					<p>Sorry there are no notes to show!</p>
 					<a href="{{ action('NoteController@create') }}">Start creating some</a>
 				</div>
